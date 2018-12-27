@@ -1,0 +1,28 @@
+version: '3.4'
+
+x-proxy: &proxy
+  http_proxy: ${http_proxy}
+  https_proxy: ${https_proxy}
+  no_proxy: ${no_proxy}
+
+x-buildargs: &buildargs
+  VCS_REF: ${VCS_REF}
+  BUILD_DATE: ${BUILD_DATE}
+  DOCKER_TAG: ${DOCKER_TAG:-latest}
+
+services:
+  monorepo:
+    image: awesomeinc/docker.gitlab.monorepo:${DOCKER_TAG}
+    build:
+      context: ./
+      args:
+        <<: *proxy
+        <<: *buildargs
+    environment:
+      <<: *proxy
+    volumes: 
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./:/project
+    working_dir: /project
+    #command: .monorepo.gitlab/last_green_commit.sh
+    #command: .monorepo.gitlab/build_if_changed.sh app ./build.sh app
