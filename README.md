@@ -52,3 +52,5 @@ image:
   name: awesomeinc/docker.gitlab.monorepo:0.1.0
   entrypoint: [""] # force an empty entrypoint, cf.: https://gitlab.com/gitlab-org/gitlab-runner/issues/2692#workaround
 ```
+
+A real life example on GitLab is e.g. [mkoertgen/hello.docker-sonar](https://gitlab.com/mkoertgen/hello.docker-sonar).
