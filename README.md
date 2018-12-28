@@ -1,9 +1,9 @@
 # docker.gitlab.monorepo
 
 [![Docker build](https://img.shields.io/docker/build/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/builds/)
-[![Docker automated](https://img.shields.io/docker/automated/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://travis-ci.org/awesome-inc/docker.gitlab.monorepo/)
-[![Docker stars](https://img.shields.io/docker/stars/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://travis-ci.org/awesome-inc/docker.gitlab.monorepo/)
-[![Docker pulls](https://img.shields.io/docker/pulls/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://travis-ci.org/awesome-inc/docker.gitlab.monorepo/)
+[![Docker automated](https://img.shields.io/docker/automated/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/)
+[![Docker stars](https://img.shields.io/docker/stars/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/)
+[![Docker pulls](https://img.shields.io/docker/pulls/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/)
 
 [![Build status](https://img.shields.io/travis/awesome-inc/docker.gitlab.monorepo.svg?logo=travis)](https://travis-ci.org/awesome-inc/docker.gitlab.monorepo/)
 [![GitHub issues](https://img.shields.io/github/issues/awesome-inc/docker.gitlab.monorepo.svg?logo=github "GitHub issues")](https://github.com/awesome-inc/docker.gitlab.monorepo)
