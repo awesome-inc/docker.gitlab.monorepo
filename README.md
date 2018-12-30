@@ -5,7 +5,7 @@
 [![Docker stars](https://img.shields.io/docker/stars/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/)
 [![Docker pulls](https://img.shields.io/docker/pulls/awesomeinc/docker.gitlab.monorepo.svg?logo=docker)](https://hub.docker.com/r/awesomeinc/docker.gitlab.monorepo/)
 
-[![Build status](https://img.shields.io/travis/awesome-inc/docker.gitlab.monorepo.svg?logo=travis)](https://travis-ci.org/awesome-inc/docker.gitlab.monorepo/)
+[![Build status](https://img.shields.io/travis/awesome-inc/docker.gitlab.monorepo.svg?logo=travis)](https://travis-ci.com/awesome-inc/docker.gitlab.monorepo/)
 [![GitHub issues](https://img.shields.io/github/issues/awesome-inc/docker.gitlab.monorepo.svg?logo=github "GitHub issues")](https://github.com/awesome-inc/docker.gitlab.monorepo)
 [![GitHub stars](https://img.shields.io/github/stars/awesome-inc/docker.gitlab.monorepo.svg?logo=github "GitHub stars")](https://github.com/awesome-inc/docker.gitlab.monorepo)
 
