@@ -1,4 +1,4 @@
-FROM docker/compose:1.23.2
+FROM docker/compose:1.24.1
 
 # cf.:
 # - https://docs.docker.com/docker-cloud/builds/advanced/#environment-variables-for-building-and-testing
@@ -22,7 +22,7 @@ LABEL author="Awesome Incremented <marcel.koertgen@gmail.com>"\
     org.label-schema.schema-version="1.0" \
     org.label-schema.docker.cmd="docker run awesomeinc/docker.gitlab.monorepo:${DOCKER_TAG}"
 
-RUN apk add --no-cache bash curl jq
+RUN apk add --no-cache bash curl jq git
 
 ENTRYPOINT [ "/bin/bash" ]
 
